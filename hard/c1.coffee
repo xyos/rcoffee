@@ -22,7 +22,6 @@ process.stdin.on "data", (c) =>
     when "l" then guess g.m,g.l
     when "y"
       console.log "number was #{g.m}, took me #{tries.length} tries"
-      console.log g
       process.exit()
     else guess g.h,g.l
 
